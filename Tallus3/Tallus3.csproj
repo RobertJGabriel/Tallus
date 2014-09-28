@@ -1,0 +1,725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BCDC39DA-03DA-4647-9277-64C8384ED0B6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tallus3</RootNamespace>
+    <AssemblyName>Tallus3</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Robert\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>115</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1291931623_mail.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8E763A084C41383ABC42983F7507D983BD67A011</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Tallus3_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Tallus3.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Apps\Achievements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\Achievements.Designer.cs">
+      <DependentUpon>Achievements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Amazon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\Amazon.Designer.cs">
+      <DependentUpon>Amazon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Books\Books1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\Books\Books1.Designer.cs">
+      <DependentUpon>Books1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Books\Books2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\Books\Books2.Designer.cs">
+      <DependentUpon>Books2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Emails\Attachment.cs" />
+    <Compile Include="Apps\Emails\email start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\Emails\email start.Designer.cs">
+      <DependentUpon>email start.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Emails\EmailClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\Emails\EmailClient.Designer.cs">
+      <DependentUpon>EmailClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Emails\Internet.cs" />
+    <Compile Include="Apps\Emails\MailDecoder.cs" />
+    <Compile Include="Apps\Emails\MailEncoder.cs" />
+    <Compile Include="Apps\Emails\MailMessage.cs" />
+    <Compile Include="Apps\Emails\Pop3Client.cs" />
+    <Compile Include="Apps\Emails\Pop3ClientException.cs" />
+    <Compile Include="Apps\Emails\Rtf2Html.cs" />
+    <Compile Include="Apps\Emails\SmtpClient.cs" />
+    <Compile Include="Apps\Emails\SmtpClientException.cs" />
+    <Compile Include="Apps\Emails\ToolBarRenderer.cs" />
+    <Compile Include="Apps\help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\help.Designer.cs">
+      <DependentUpon>help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\maths.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\maths.Designer.cs">
+      <DependentUpon>maths.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Internet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\Internet.Designer.cs">
+      <DependentUpon>Internet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Musicplayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\Musicplayer.Designer.cs">
+      <DependentUpon>Musicplayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Notes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\Notes.Designer.cs">
+      <DependentUpon>Notes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Twitter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\Twitter.Designer.cs">
+      <DependentUpon>Twitter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Xbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\Xbox.Designer.cs">
+      <DependentUpon>Xbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Background\Debug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Background\Debug.Designer.cs">
+      <DependentUpon>Debug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Background\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Background\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Emails22\Attachment.cs" />
+    <Compile Include="Apps\Emails22\EmailClient2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\Emails22\EmailClient2.Designer.cs">
+      <DependentUpon>EmailClient2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Emails22\Internet.cs" />
+    <Compile Include="Apps\Emails22\MailDecoder.cs" />
+    <Compile Include="Apps\Emails22\MailEncoder.cs" />
+    <Compile Include="Apps\Emails22\MailMessage.cs" />
+    <Compile Include="Apps\Emails22\Pop3Client.cs" />
+    <Compile Include="Apps\Emails22\Pop3ClientException.cs" />
+    <Compile Include="Apps\Emails22\Rtf2Html.cs" />
+    <Compile Include="Apps\Emails22\SmtpClient.cs" />
+    <Compile Include="Apps\Emails22\SmtpClientException.cs" />
+    <Compile Include="Apps\Emails22\ToolBarRenderer.cs" />
+    <Compile Include="Launch\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Launch\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Launch\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Launch\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Launch\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Launch\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="TallusDatabaseDataSet1.cs">
+      <DependentUpon>TallusDatabaseDataSet1.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TallusDatabaseDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TallusDatabaseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher\network.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher\network.Designer.cs">
+      <DependentUpon>network.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher\Notes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher\Notes.Designer.cs">
+      <DependentUpon>Notes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher\users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher\users.Designer.cs">
+      <DependentUpon>users.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Apps\Achievements.resx">
+      <DependentUpon>Achievements.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Amazon.resx">
+      <DependentUpon>Amazon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Books\Books1.resx">
+      <DependentUpon>Books1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Books\Books2.resx">
+      <DependentUpon>Books2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Emails\email start.resx">
+      <DependentUpon>email start.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Emails\EmailClient.resx">
+      <DependentUpon>EmailClient.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\help.resx">
+      <DependentUpon>help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\maths.resx">
+      <DependentUpon>maths.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Internet.resx">
+      <DependentUpon>Internet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Musicplayer.resx">
+      <DependentUpon>Musicplayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Notes.resx">
+      <DependentUpon>Notes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Twitter.resx">
+      <DependentUpon>Twitter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Xbox.resx">
+      <DependentUpon>Xbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Background\Debug.resx">
+      <DependentUpon>Debug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Background\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Emails22\EmailClient2.resx">
+      <DependentUpon>EmailClient2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Launch\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Launch\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Launch\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Teacher\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher\network.resx">
+      <DependentUpon>network.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher\Notes.resx">
+      <DependentUpon>Notes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher\users.resx">
+      <DependentUpon>users.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Tallus3_TemporaryKey.pfx" />
+    <None Include="TallusDatabaseDataSet1.xsc">
+      <DependentUpon>TallusDatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TallusDatabaseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TallusDatabaseDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TallusDatabaseDataSet1.xss">
+      <DependentUpon>TallusDatabaseDataSet1.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1289644298_logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\amazon-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Android-Twitter-256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_default_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\applications_games.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookssss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comic-con.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dialog_password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dropbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emerald_theme_manager_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evolution_tasks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\firefox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\g1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gbrainy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Globe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gmail1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gnome_shutdown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gpm_primary_000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gpm_primary_020.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gpm_primary_060.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gpm_primary_080.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gpm_primary_100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotmailemail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hq-official-windows7-wallpaper-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\internet_explorer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\internet_explorer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refesh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings2222222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\library.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mail_message_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mail_Read.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mailhomepage22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wood_Wallpaper_by_stenosis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\header.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maths book cover 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Media-Player-256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\musi999999999c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\musicadium_ebook_cover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\People.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preferences_desktop_keyboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preferences_desktop_theme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rhythmbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\robert.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SciFest-2010-poster.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scribus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scribus1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Star-Full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows-256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blank1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1291931596_mail.ico" />
+    <Content Include="1291931623_mail.ico" />
+    <Content Include="goggles.ico" />
+    <None Include="Resources\friendring_back_out.png" />
+    <None Include="Resources\internatbac.jpg" />
+    <None Include="Resources\1292192696_Badge Alt Exclamation1.png" />
+    <None Include="Resources\1292192696_Badge Alt Exclamation.png" />
+    <None Include="Resources\Untitled.jpg" />
+    <None Include="Resources\yy.png" />
+    <None Include="Resources\canvas_bg.jpg" />
+    <None Include="Resources\twitter-sun.gif" />
+    <None Include="Resources\1292004149_mail.png" />
+    <None Include="Resources\Untitled2.png" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\1291932927_email_delete.png" />
+    <None Include="Resources\1291932602_email_send.png" />
+    <None Include="Resources\1291932156_Google1.png" />
+    <None Include="Resources\agt_family_off.png" />
+    <None Include="Resources\ginger_man.png" />
+    <None Include="Resources\keynote.png" />
+    <None Include="Resources\1291494980_Mail.png" />
+    <None Include="Resources\network_alt.png" />
+    <None Include="Resources\users.png" />
+    <None Include="Resources\1291405759_on-off.png" />
+    <None Include="Resources\android.png" />
+    <None Include="Resources\132114-worn-cloth-icon-alphanumeric-percent-sign.png" />
+    <None Include="Resources\132003-worn-cloth-icon-alphanumeric-circled-x.png" />
+    <None Include="Resources\132009-worn-cloth-icon-alphanumeric-crossing.png" />
+    <None Include="Resources\132118-worn-cloth-icon-alphanumeric-plus-sign.png" />
+    <None Include="Resources\132088-worn-cloth-icon-alphanumeric-minus-sign-simple.png" />
+    <None Include="Resources\132011-worn-cloth-icon-alphanumeric-equal-sign.png" />
+    <None Include="Resources\underline.ico" />
+    <None Include="Resources\New_Email.bmp" />
+    <None Include="Resources\italic.ico" />
+    <None Include="Resources\fontcolor.ico" />
+    <None Include="Resources\fontbackcolor.ico" />
+    <None Include="Resources\DownloadFile.ico" />
+    <None Include="Resources\Delete_Email.bmp" />
+    <None Include="Resources\delete.ico" />
+    <None Include="Resources\Clear.gif" />
+    <None Include="Resources\bold.ico" />
+    <None Include="Resources\add.ico" />
+    <None Include="Resources\SciFest-2010-poster1.jpg" />
+    <None Include="Resources\musicadium_ebook_cover1.jpg" />
+    <None Include="Resources\Maths book cover 21.jpg" />
+    <None Include="Resources\comic-con1.jpg" />
+    <None Include="Resources\bt1.JPG" />
+    <None Include="Resources\1290985266_edu_languages.png" />
+    <None Include="Resources\1290985075_Network.png" />
+    <None Include="Resources\1290984928_NETWORK - HDD.png" />
+    <None Include="Resources\1290984950_config-users.png" />
+    <None Include="Resources\star_gold.png" />
+    <None Include="Resources\prjectheaser.png" />
+    <None Include="Resources\g.png" />
+    <None Include="Resources\1290976391_Battery_Full.png" />
+    <None Include="Resources\1290976390_Battery_End.png" />
+    <None Include="Resources\1290976385_Battery_Half.png" />
+    <None Include="Resources\1290976375_Dropbox.png" />
+    <None Include="Resources\1290976373_Evernote.png" />
+    <None Include="Resources\1290976369_Wireless_Alt.png" />
+    <None Include="Resources\1290976366_Battery_End.png" />
+    <None Include="Resources\1290976365_Battery_Full.png" />
+    <None Include="Resources\left.png" />
+    <None Include="Resources\1289676842_arrow_right.png" />
+    <None Include="Resources\1290889654_left_48.png" />
+    <None Include="Resources\bgRand1.jpg" />
+    <None Include="Resources\gmail11.png" />
+    <None Include="Resources\hotmailemail1.png" />
+    <None Include="Resources\games_for_windows_logo.png" />
+    <None Include="Resources\gamesforwindows.png" />
+    <None Include="Resources\1289644338_Refresh.png" />
+    <None Include="Resources\1289644333_Home.png" />
+    <None Include="Resources\1289644333_Arrow-Right.png" />
+    <None Include="Resources\1289644334_Arrow-Left.png" />
+    <None Include="Resources\27_edit_text.png" />
+    <None Include="Resources\easymoblog.png" />
+    <None Include="Resources\music_player_4.png" />
+    <None Include="Resources\media_player.png" />
+    <None Include="Resources\twitter_45.png" />
+    <None Include="Resources\windows_vista.png" />
+    <None Include="Resources\windows.png" />
+    <None Include="Resources\emblem_library.png" />
+    <None Include="Resources\1290802677_06_calculator.png" />
+    <None Include="Resources\1290802164_e-mail2 .png" />
+    <None Include="Resources\aaa.png" />
+    <None Include="Resources\New-iTunes-Logo.png" />
+    <None Include="Resources\Firefox-256 %281%29.png" />
+    <None Include="Resources\Chrome-256.png" />
+    <None Include="Resources\Firefox-256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
