@@ -1,0 +1,100 @@
+C:\Users\Robert\AppData\Local\Temporary Projects\Tallus3\bin\Debug\Tallus3.exe.config
+C:\Users\Robert\AppData\Local\Temporary Projects\Tallus3\bin\Debug\Tallus3.exe
+C:\Users\Robert\AppData\Local\Temporary Projects\Tallus3\bin\Debug\Tallus3.pdb
+C:\Users\Robert\AppData\Local\Temporary Projects\Tallus3\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Robert\AppData\Local\Temporary Projects\Tallus3\obj\x86\Debug\Tallus3.Login.resources
+C:\Users\Robert\AppData\Local\Temporary Projects\Tallus3\obj\x86\Debug\Tallus3.Properties.Resources.resources
+C:\Users\Robert\AppData\Local\Temporary Projects\Tallus3\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Robert\AppData\Local\Temporary Projects\Tallus3\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Robert\AppData\Local\Temporary Projects\Tallus3\obj\x86\Debug\Tallus3.exe
+C:\Users\Robert\AppData\Local\Temporary Projects\Tallus3\obj\x86\Debug\Tallus3.pdb
+C:\Users\Robert\documents\visual studio 2010\Projects\Tallus3\Tallus3\bin\Debug\Tallus3.exe.config
+C:\Users\Robert\documents\visual studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.exe
+C:\Users\Robert\documents\visual studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.pdb
+C:\Users\Robert\documents\visual studio 2010\Projects\Tallus3\Tallus3\bin\Debug\Tallus3.exe
+C:\Users\Robert\documents\visual studio 2010\Projects\Tallus3\Tallus3\bin\Debug\Tallus3.pdb
+C:\Users\Robert\documents\visual studio 2010\Projects\Tallus3\Tallus3\bin\Debug\Interop.WMPLib.dll
+C:\Users\Robert\documents\visual studio 2010\Projects\Tallus3\Tallus3\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Robert\documents\visual studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Robert\documents\visual studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Robert\documents\visual studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\Robert\documents\visual studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.csproj.ResolveComReference.cache
+C:\Users\Robert\documents\visual studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.Books.Books1.resources
+C:\Users\Robert\documents\visual studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.Books.Books2.resources
+C:\Users\Robert\documents\visual studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.Musicplayer.resources
+C:\Users\Robert\documents\visual studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Login.resources
+C:\Users\Robert\documents\visual studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Properties.Resources.resources
+C:\Users\Robert\documents\visual studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Robert\documents\visual studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Robert\Documents\Visual Studio 2010\Projects\Tallus3\Tallus3\bin\Debug\Tallus3.exe.manifest
+C:\Users\Robert\Documents\Visual Studio 2010\Projects\Tallus3\Tallus3\bin\Debug\Tallus3.application
+C:\Users\Robert\Documents\Visual Studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.exe.manifest
+C:\Users\Robert\Documents\Visual Studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.application
+C:\Users\Robert\Documents\Visual Studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Background.Debug.resources
+C:\Users\Robert\Documents\Visual Studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Form1.resources
+C:\Users\Robert\documents\visual studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Launch.Form1.resources
+C:\Users\Robert\Documents\Visual Studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.Amazon.resources
+C:\Users\Robert\Documents\Visual Studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.maths.resources
+C:\Users\Robert\Documents\Visual Studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.Twitter.resources
+C:\Users\Robert\Documents\Visual Studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.Xbox.resources
+C:\Users\Robert\Documents\visual studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Teacher.Notes.resources
+C:\Users\Robert\Documents\Visual Studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Teacher.network.resources
+C:\Users\Robert\Documents\Visual Studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Teacher.users.resources
+C:\Users\Robert\Documents\Visual Studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.Emails.EmailClient.resources
+C:\Users\Robert\Documents\Visual Studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.Emails.email_start.resources
+C:\Users\Robert\Documents\Visual Studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Launch.Emails.EmailClient2.resources
+C:\Users\Robert\Documents\Visual Studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Background.Form1.resources
+C:\Users\Robert\Documents\Visual Studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Teacher.Form1.resources
+C:\Users\Robert\Documents\Visual Studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.Achievements.resources
+C:\Users\Robert\Documents\Visual Studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.help.resources
+C:\Users\Robert\Documents\Visual Studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Launch.Form2.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\bin\Debug\Tallus3.exe.config
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.csproj.ResolveComReference.cache
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.exe
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.pdb
+C:\Users\Robert\Desktop\Tallus3\Tallus3\bin\Debug\Tallus3.exe.manifest
+C:\Users\Robert\Desktop\Tallus3\Tallus3\bin\Debug\Tallus3.application
+C:\Users\Robert\Desktop\Tallus3\Tallus3\bin\Debug\Tallus3.exe
+C:\Users\Robert\Desktop\Tallus3\Tallus3\bin\Debug\Tallus3.pdb
+C:\Users\Robert\Desktop\Tallus3\Tallus3\bin\Debug\Interop.WMPLib.dll
+C:\Users\Robert\Desktop\Tallus3\Tallus3\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.Achievements.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.Amazon.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.Books.Books1.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.Books.Books2.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.Emails.email_start.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.Emails.EmailClient.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.help.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.maths.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.Internet.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.Musicplayer.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.Notes.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.Twitter.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.Xbox.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Background.Debug.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Background.Form1.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Form1.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Launch.Emails.EmailClient2.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Launch.Form1.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Launch.Form2.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Login.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Properties.Resources.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Teacher.Form1.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Teacher.network.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Teacher.Notes.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Teacher.users.resources
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.exe.manifest
+C:\Users\Robert\Desktop\Tallus3\Tallus3\obj\x86\Debug\Tallus3.application
+C:\Users\Robert\Documents\Visual Studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.Notes.resources
+C:\Users\Robert\Documents\Visual Studio 2010\Projects\Tallus3\Tallus3\obj\x86\Debug\Tallus3.Apps.Internett.resources
+C:\Users\Vinnie\Dropbox\Visual Studio\Tallus3\Tallus3\bin\Debug\Tallus3.exe.config
+C:\Users\Vinnie\Dropbox\Visual Studio\Tallus3\Tallus3\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Vinnie\Dropbox\Visual Studio\Tallus3\Tallus3\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\Vinnie\Dropbox\Visual Studio\Tallus3\Tallus3\obj\x86\Debug\Tallus3.csproj.ResolveComReference.cache
+C:\Users\Vinnie\Dropbox\Visual Studio\Tallus3\Tallus3\obj\x86\Debug\Tallus3.exe
+C:\Users\Vinnie\Dropbox\Visual Studio\Tallus3\Tallus3\obj\x86\Debug\Tallus3.pdb
